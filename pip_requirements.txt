@@ -1,0 +1,15 @@
+torch 
+torchvision
+tensorflow
+tensorboard
+tensorboardX
+matplotlib
+lmdb
+scipy
+opencv-python
+scikit-learn
+pandas
+tqdm
+pillow
+ipython[all]
+jupyter
