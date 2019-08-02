@@ -15,3 +15,5 @@ ipython[all]
 jupyter
 trimesh
 meshzoo
+shapely
+rtree
