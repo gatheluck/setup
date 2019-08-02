@@ -65,3 +65,7 @@ done
 for e in ${cask_array[@]}; do
 	brew cask install ${e}
 done
+
+# change screenshot dir
+mkdir ~/Temp
+defaults write com.apple.screencapture location ~/Temp/;killall SystemUIServer
