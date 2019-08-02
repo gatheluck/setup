@@ -47,6 +47,7 @@ brew_array=(\
 		zsh \
 		zsh-completions \
 		wget \
+		spatialindex \
 )
 
 cask_array=(\
