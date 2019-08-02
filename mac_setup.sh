@@ -46,6 +46,7 @@ brew_array=(\
 		git \
 		zsh \
 		zsh-completions \
+		wget \
 )
 
 cask_array=(\
