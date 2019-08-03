@@ -55,7 +55,7 @@ cask_array=(\
 		google-chrome \
 		slack \
 		visual-studio-code \
-		miniconda \ 
+		miniconda \
 )
 
 # install by homebrew
