@@ -17,3 +17,4 @@ trimesh
 meshzoo
 shapely
 rtree
+pyglet
