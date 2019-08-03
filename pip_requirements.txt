@@ -8,6 +8,7 @@ lmdb
 scipy
 opencv-python
 scikit-learn
+scikit-image
 pandas
 tqdm
 pillow
