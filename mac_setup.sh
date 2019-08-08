@@ -56,6 +56,7 @@ cask_array=(\
 		slack \
 		visual-studio-code \
 		miniconda \
+		skype \
 )
 
 # install by homebrew
