@@ -48,6 +48,7 @@ brew_array=(\
 		zsh-completions \
 		wget \
 		spatialindex \
+		docker \
 )
 
 cask_array=(\
