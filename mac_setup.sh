@@ -49,6 +49,8 @@ brew_array=(\
 		wget \
 		spatialindex \
 		docker \
+		docker-compose \
+		docker-machine \
 )
 
 cask_array=(\
