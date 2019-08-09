@@ -20,3 +20,5 @@ shapely
 rtree
 pyglet
 visdom
+absl-py
+pymesh
