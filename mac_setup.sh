@@ -51,6 +51,9 @@ brew_array=(\
 		docker \
 		docker-compose \
 		docker-machine \
+		gcc \
+		make \
+		binutils \
 )
 
 cask_array=(\
@@ -60,6 +63,8 @@ cask_array=(\
 		visual-studio-code \
 		miniconda \
 		skype \
+		docker \
+		meshlab \
 )
 
 # install by homebrew
