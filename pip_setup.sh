@@ -38,7 +38,7 @@ fi
 
 DEFAULT="nao"
 
-source ~/.zprofile
+source ~/.bashrc
 conda activate ${DEFAULT} 
 conda info -e
 
