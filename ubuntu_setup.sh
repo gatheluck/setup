@@ -60,6 +60,9 @@ apt_array=(\
 	libgflags-dev \
 	libglew-dev \
 	qtbase5-dev \
+	net-tools \
+	exfat-fuse \
+	exfat-utils
 )
 
 yes | sudo apt-get update
