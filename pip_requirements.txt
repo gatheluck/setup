@@ -21,3 +21,4 @@ rtree
 pyglet
 visdom
 absl-py
+yattag
