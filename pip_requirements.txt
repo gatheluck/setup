@@ -24,4 +24,4 @@ absl-py
 pymesh
 wandb
 yattag
-edict
+easydict
