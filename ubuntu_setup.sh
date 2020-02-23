@@ -58,6 +58,8 @@ apt_array=(\
 	libfreeimage-dev \
 	libgoogle-glog-dev \
 	libgflags-dev \
+	# opencv
+	libopencv-dev \
 	# gl
 	freeglut3 freeglut3-dev libglew-dev \
 	# qt
