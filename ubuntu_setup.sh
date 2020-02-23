@@ -59,10 +59,13 @@ apt_array=(\
 	libgoogle-glog-dev \
 	libgflags-dev \
 	libglew-dev \
-	qtbase5-dev \
+	# qt
+	qtbase5-dev qttools5-dev-tools qt5-default \
 	net-tools \
 	exfat-fuse \
-	exfat-utils
+	exfat-utils \
+	# assimp : to import various well-known 3D model formats
+	assimp-utils libassimp-dev
 )
 
 yes | sudo apt-get update
@@ -74,7 +77,8 @@ for e in ${apt_array[@]}; do
 done
 
 # google chrome
-curl https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
-sudo apt update
-sudo apt install google-chrome-stable
+# curl https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+# echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/
+# google-chrome.list
+# sudo apt update
+# sudo apt install google-chrome-stable
