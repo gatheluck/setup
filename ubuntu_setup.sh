@@ -58,7 +58,8 @@ apt_array=(\
 	libfreeimage-dev \
 	libgoogle-glog-dev \
 	libgflags-dev \
-	libglew-dev \
+	# gl
+	freeglut3 freeglut3-dev libglew-dev \
 	# qt
 	qtbase5-dev qttools5-dev-tools qt5-default \
 	net-tools \
