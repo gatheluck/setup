@@ -22,6 +22,7 @@ absl-py
 pymesh
 mlflow
 wandb
+comet_ml
 yattag
 edict
 hydra-core
