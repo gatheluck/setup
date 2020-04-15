@@ -1,5 +1,6 @@
 torch 
 torchvision
+pytorch-lightning
 matplotlib
 lmdb
 scipy
