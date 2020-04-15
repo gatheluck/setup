@@ -20,6 +20,7 @@ pyglet
 visdom
 absl-py
 pymesh
+mlflow
 wandb
 yattag
 edict
