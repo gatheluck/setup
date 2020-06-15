@@ -1,9 +1,6 @@
 torch 
 torchvision
-<<<<<<< HEAD
 pytorch-lightning
-=======
->>>>>>> 76a772ec142062b9f4ea5187fdc8363a9fcdaa5d
 matplotlib
 lmdb
 scipy
