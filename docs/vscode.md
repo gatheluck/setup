@@ -10,38 +10,33 @@
 - Add following script to `keybindings.json`.
 
 ```
-[
-	{
-		"key": "ctrl+space",
-		"command": "-toggleSuggestionDetails",
-		"when": "editorTextFocus && suggestWidgetVisible"
-	}
-]
+{
+	"key": "ctrl+space",
+	"command": "-toggleSuggestionDetails",
+	"when": "editorTextFocus && suggestWidgetVisible"
+}
 ```
 
 ### Add Keybinding for Next Suggestion
 - Add following script to `keybindings.json`.
 
 ```
-[
-	{
-		"key": "ctrl+space",
-		"command": "selectNextSuggestion",
-		"when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
-	}
-]
+{
+	"key": "ctrl+space",
+	"command": "selectNextSuggestion",
+	"when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+}
 ```
 
 ### Add Keybinding for Previous Suggestion
 - Add following script to `keybindings.json`.
+
 ```
-[
-	{
-		"key": "ctrl+shift+space",
-		"command": "selectPrevSuggestion",
-		"when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
-	}
-]
+{
+	"key": "ctrl+shift+space",
+	"command": "selectPrevSuggestion",
+	"when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+}
 ```
 
 ### Reference
