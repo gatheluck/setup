@@ -42,6 +42,7 @@
 		"when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
 	}
 ]
+```
 
 ### Reference
 - [Qitta](https://qiita.com/carnelia0702/items/fc736cfc61daa282f789)
