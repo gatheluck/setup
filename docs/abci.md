@@ -1,5 +1,35 @@
 # ABCI Environment Setup
 
+## Registor Public Key
+
+Generate ssh keys by a following command.
+
+```
+ssh-keygen -t rsa -b 4096
+# specify path to keys.
+```
+
+## Set Proxy Jump (Optional)
+
+Add following stentences to `$HOME/.ssh/config` .
+
+```
+Host abci
+     HostName es
+     User [USERNAME]
+     ProxyJump %r@as.abci.ai
+     IdentityFile [PATH_TO_IDENTITY_FILE]
+
+Host as.abci.ai
+     IdentityFile [PATH_TO_IDENTITY_FILE]
+```
+
+Then, you are able to login by `ssh abci`.
+
+### Reference
+- [Qiita](https://qiita.com/suthio/items/2760e4cff0e185fe2db9)
+- [ABCI docs](https://docs.abci.ai/ja/02/)
+
 ## Install Conda for Virtual Environment
 
 Access [conda page](https://docs.conda.io/en/latest/miniconda.html) and find latest version installer url.
