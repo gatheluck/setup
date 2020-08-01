@@ -54,6 +54,7 @@ brew_array=(\
 		gcc \
 		make \
 		binutils \
+		yarn \
 )
 
 cask_array=(\
