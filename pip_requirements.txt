@@ -30,3 +30,6 @@ easydict
 click
 horovod
 seaborn
+flake8
+pep8-naming
+black
