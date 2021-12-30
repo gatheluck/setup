@@ -43,29 +43,30 @@ yes | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/
 brew update
 
 brew_array=(\
-		git \
-		zsh \
-		zsh-completions \
-		wget \
-		spatialindex \
+		binutils \
 		docker \
 		docker-compose \
 		docker-machine \
 		gcc \
+		git \
+		graphviz \
 		make \
-		binutils \
+		spatialindex \
+		wget \
 		yarn \
+		zsh \
+		zsh-completions \
 )
 
 cask_array=(\
+		docker \
 		iterm2 \
 		google-chrome \
-		slack \
-		visual-studio-code \
-		miniconda \
-		skype \
-		docker \
 		meshlab \
+		miniconda \
+		slack \
+		skype \
+		visual-studio-code \
 )
 
 # install by homebrew
