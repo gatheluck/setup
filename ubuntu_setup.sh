@@ -68,7 +68,9 @@ apt_array=(\
 	exfat-fuse \
 	exfat-utils \
 	# assimp : to import various well-known 3D model formats
-	assimp-utils libassimp-dev
+	assimp-utils libassimp-dev \
+	# graphviz: needed for pyreverse
+	graphviz
 )
 
 yes | sudo apt-get update
