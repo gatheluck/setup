@@ -1,0 +1,38 @@
+{
+	"workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+
+    //--- Docker ---//
+    "[dockerfile]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    // make renamed Dockerfile lintable
+    "files.associations": {
+        "Dockerfile*": "dockerfile"
+    },
+
+    //--- Python ---//
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        // ---vertical ruler --- // 
+        "editor.rulers": [72, 79]
+    },
+
+    //--- Terraform ---//
+    "[terraform]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "explorer.compactFolders": false,
+    "cmake.configureOnOpen": false,
+    "workbench.startupEditor": "none",
+    "editor.renderWhitespace": "boundary"
+}
